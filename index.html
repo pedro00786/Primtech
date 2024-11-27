@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imagem Exibida</title>
+    <style>
+        body {
+            /* Plano de fundo com imagem e gradiente */
+            background: 
+                linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Gradiente escuro */
+                url('https://link-da-imagem-de-fundo.jpg'); /* Imagem de fundo */
+            background-size: cover; /* Faz a imagem cobrir toda a tela */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Impede que a imagem se repita */
+            height: 100vh; /* Garante que o fundo cubra toda a altura da tela */
+            margin: 0; /* Remove a margem da página */
+            display: flex; /* Usado para centralizar o conteúdo */
+            justify-content: center; /* Alinha horizontalmente ao centro */
+            align-items: center; /* Alinha verticalmente ao centro */
+            color: white; /* Cor do texto */
+        }
+        h1 {
+            font-size: 3rem; /* Tamanho da fonte do título */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra no texto para melhorar a legibilidade */
+        }
+        img {
+            max-width: 80%; /* Limita o tamanho máximo da imagem para 80% da largura da tela */
+            height: auto; /* Mantém a proporção da imagem */
+            border-radius: 8px; /* Borda arredondada na imagem */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Sombra ao redor da imagem */
+        }
+    </style>
 </head>
-<body style="text-align: center;">
-    <h1>Bem-vindo à PRIMTECH!</h1>
-    <img src= https://github.com/pedro00786/Primtech/blob/main/Primtech_VisitCard3.jpg?raw=true
+<body>
+    <div>
+        <h1>Bem-vindo à PRIMTECH!</h1>
+        <img src= https://github.com/pedro00786/Primtech/blob/main/Primtech_VisitCard3.jpg?raw=true
+    </div>
 </body>
 </html>
+
+ 
